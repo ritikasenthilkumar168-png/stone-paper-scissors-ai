@@ -177,8 +177,20 @@ cam.release()
 cv2.destroyAllWindows()
 ```
 ## test.py code:
+```
+# 🧠 MediaPipe module check script
+# Used to verify installation and available attributes
 
+import mediapipe as mp
+
+# 📍 Show where MediaPipe is installed on your system
+print(mp.__file__)
+
+# 📦 Show all available modules, classes, and functions inside mediapipe
+print(dir(mp))
+```
 ## ▶ Run
 ```bash
 pip install opencv-python mediapipe
 python main.py
+```
